@@ -7,65 +7,87 @@
   	 <meta name="description" content="Neste portfólio será retratado alguns projetos e trabalhos front-end constituídos por mim">
  	 <meta name="robots" content="INDEX, FOLLOW">
    	 <meta name="keywords" content="front-end, portfólio Guilherme Silva, desenvolvedor front-end">
-   	 <meta name="google-site-verification" content="VGsVhB3f0N0s7fU4BQ3h3ViJmGSsnIeKdGwDhlVmvKg">
-   	 <!-- estilo -->
-   	 <link rel="stylesheet" type="text/css" href="estilo.css">
-     <!-- sibolos -->
+	 <meta name="google-site-verification" content="VGsVhB3f0N0s7fU4BQ3h3ViJmGSsnIeKdGwDhlVmvKg">
+	 
+	 <link rel="icon" href="https://image.flaticon.com/icons/png/512/14/14573.png">
+	 <!-- font -->
+	 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+ 	 <!-- styles -->
+	  <link rel="stylesheet" type="text/css" href="css_file/pattern.css">	
+	  <link rel="stylesheet" type="text/css" href="css_file/style-menu.css">
+     <!-- icon -->
      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-     <!-- fontes -->
-     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-	<div id="site-wrap">
+	<header>
 		<input type="checkbox" id="checkbox-menu">
-		<label for="checkbox-menu" id="input-checkbox-menu"><i class="fas fa-bars"></i></label>
-		<section id="menu">	
-			<header class="header-menu">
-				<div class="foto-perfil">
-						<img src="perfil.jpeg" alt="Foto de Guilherme Silva">
-				</div>
-					<nav id="nav-header-menu">
-						<a href="#" title="Quem sou eu">
-							<i class="fas fa-address-card"></i>
-						</a>
-						<a href="#" title="Meus projetos e trabalhos">
-							<i class="fas fa-briefcase"></i>
-						</a>
-						<a href="https://wa.me/5518998268450?text=Olá,%20Guilherme!%20Quero%20tirar%20uma%20dúvida..." target="_blank" title="contato (meu whatsapp)">
-							<i class="fab fa-whatsapp"></i>
-						</a>
-					</nav>
-			</header>
-				<div class="detalhes">
-					<h3>Guilherme Silva</h3>
-						<span class="online">
-							<i class="fas fa-circle" style="color: #3c6e37"></i>Disponível
-						</span>
-				</div>
-				<div id="feedback-perguntas">
-					<form action="https://api.staticforms.xyz/submit" method="post">
-       			        <input type="text" name="name" id="input-name" placeholder="Digite seu nome aqui">
-       			        <input type="text" name="email" placeholder="Digite seu email aqui" />
-      				    <textarea name="message" placeholder="Alguma dúvida ?"></textarea>
-       				    <input type="text" name="honeypot" style="display:none">
-       				    <input type="hidden" name="accessKey" value="941299b6-de59-4685-8057-c04b3c5761bb">
-      				    <input type="hidden" name="subject" value="Contact us from - example.com" />
-       				    <input type="hidden" name="replyTo" value="mr.oliver1310@gmail.com">
-       				    <input type="hidden" name="redirectTo" value="https://guilhermesilva.netlify.app">
-       				    <input type="submit" value="Submit" />
-    				</form>
-    
-				</div>
-		</section>
-		<section id="Corpo">
-			<div>
-				<h1>Página em desenvolvimento...</h1>
-			</div>
-		</section>
-	</div>
+		<label for="checkbox-menu" id="label-menu">
+			<i class="fas fa-bars"></i>
+		</label>
+		<div id="menu-container">
+			<nav id="header-nav">
+				<ul id="menu-wrapper" class="menu-row">
+					<li>
+						<div class="header-item">
+							<a href="#">
+									<i class="fas fa-home"></i>
+									<span>Home</span>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="header-item">
+								<a href="#"> 
+									<i class="fas fa-briefcase"></i>
+									<span>Projetos</span>
+								</a>
+						</div>
+					</li>
+					<li> 
+						<div class="header-item">
+							<a href="#">
+								<i class="fab fa-leanpub"></i>
+								<span>Aprendendo</span>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="header-item">
+							<a href="#">
+								<i class="fab fa-github"></i>
+								<span>github</span>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="header-item">
+							<a href="#">
+								<i class="fab fa-linkedin-in"></i>
+								<span>Linkedin</span>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="header-item">
+							<a href="#">
+								<i class="far fa-envelope"></i>
+								<span>Email</span>
+							</a>
+						</div>
+					</li> 
+					<li>
+						<div class="header-item">
+							<a href="#">
+								<i class="fab fa-whatsapp"></i>
+								<span>Contato</span>
+							</a>
+					</li>
+				</ul>
+			</nav>
+	    </div>
+	</header>
+	<section>
+		<audio src="music/music.mp3.mp3" controls autoplay></audio>
+	</section>
 </body>
-</html>
+</html> 

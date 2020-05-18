@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    outline: 0;
+}
+
+::selection {
+    background: rgba(106, 148, 135, 0.3);
+}
