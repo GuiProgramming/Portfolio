@@ -6,6 +6,17 @@
     outline: 0;
 }
 
+body {
+	-webkit-font-smoothing: antialiased;
+    min-width: 320px;
+    min-height: auto;
+    font-family: sans-serif;
+    -webkit-outline: none;
+    -moz-outline: none;
+    outline: none;   
+    background: #121225;
+}
+
 ::selection {
     background: rgba(106, 148, 135, 0.3);
 }
