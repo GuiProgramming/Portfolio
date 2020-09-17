@@ -1,0 +1,32 @@
+#content-body {
+    padding: 4%;
+}
+
+#content-body h1, h2 {
+    color: rgba(44, 44, 214, 0.74);
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+}
+
+#content-body h2 {
+    margin-top: 10px;
+}
+
+#presentation p {
+    margin: 15px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+#presentation article {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 4%;
+    width: 80%;
+    border: 3px solid rgb(13, 13, 179);
+    border-radius: 4px;
+    background: rgba(127, 136, 180, 0.61);
+}
