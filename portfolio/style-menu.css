@@ -42,6 +42,7 @@ ul {
     z-index: 100;
     width: 100%;
     height: 120px;
+    list-style: none;
     background: linear-gradient(45deg, #162447, #1f4068, #1b1b2f);
     transition: all 1s;
 }
